@@ -1,0 +1,17 @@
+ 
+@media print{
+   .page_breaker{
+       margin-top:400px; // height of header
+       page-break-after:always;
+       
+  }
+  #header{
+    top:0;
+    position:fixed;
+}
+  #footer{
+    bottom:0;
+    position:fixed;
+  }
+}
+  
